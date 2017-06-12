@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projekt Asistent</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css"/>
+		<link rel="stylesheet" href="styles/calculation.css"/>
+		
+		
+	</head>
+	<body>
+		<nav class="dashboard">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Obračuni</a>
+				</div>
+				<div class="navbar-login">
+					<a class="glyphicon glyphicon-user"></a>
+				</div>
+				<div class="container-button">
+					<button type="button" class="btn btn-outline-secondary">Odustani</button>
+				</div>
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- Main title: Create receipt -->
+		<div id="hr-form" class="col-md-12">
+			<!-- Receipt form -->
+			<div class="row hr-form">
+				<form class="row">
+					<div class="row hr-class">
+						<label for="stavka" class="col-md-3">VRSTA ISPLATE</label>
+						<select class="form-control col-md-9 custom-input" id="stavka">
+							<option>Ugovor o radu</option>
+							<option>Ugovor o djelu</option>
+							<option>Autorski ugovor</option>
+							<option>Autorski ugovor umjetnika</option>
+						</select>
+					</div>
+
+					<div class="row hr-class">
+						<label class="col-md-3">IZNOS</label>
+						<input type="text" class="form-control col-md-9 custom-input" id="enterReceiptNumber" placeholder="Upišite iznos">
+					</div>
+					
+					<div class="row hr-class">
+						<label for="stavka" class="col-md-3">UPISANI IZNOS</label>
+						<select class="form-control col-md-9 custom-input" id="stavka">
+							<option>Bruto primitak</option>
+							<option>Neto primitak</option>
+							<option>Ukupni trošak</option>
+						</select>
+					</div>
+					
+					<div class="row hr-class">
+						<label class="col-md-3">POREZ</label>
+						<input type="text" class="form-control col-md-2 custom-input-short" id="enterReceiptNumber">
+						<label>%</label>
+					</div>
+					
+					<div class="row hr-class">
+						<label class="col-md-3">MIO 2-stup</label><input class="custom-input-short" type="checkbox" name="vehicle" value="Bike"><br><br>
+						<label class="col-md-3">Umirovljenik</label><input class="custom-input-short" type="checkbox" name="vehicle" value="Bike">
+					</div>
+
+					<div class="row hr-class btn-create-left">
+						<button type="button" class="btn btn-primary">Generiraj Obračun</button>
+					</div>
+					<div class="row hr-class btn-create-right">
+						<button type="button" class="btn btn-primary">JOPPD</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>

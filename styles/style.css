@@ -1,0 +1,57 @@
+/*---------------------------------------------------------*/
+html,
+body {
+  padding: 0;
+  font-size: 16px;
+  background-color: #e0e0e0;
+}
+.dashboard {
+  background-color: #673ab7;
+  font-family: 'Fira Sans', sans-serif;
+  box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.dashboard .navbar-brand {
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.dashboard .navbar-brand a {
+  text-decoration: none;
+}
+.dashboard .container-button {
+  float: right;
+  margin: 15px;
+}
+.dashboard .container-button button {
+  background-color: white;
+  color: #673ab7;
+}
+.dashboard .navbar-login a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  margin: 20px;
+}
+.dashboard .navbar-login a:hover {
+  color: #d1c4e9;
+  cursor: pointer;
+}
+.project {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  color: #31708f;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.project p {
+  display: inline-block;
+}
+.tittle-addproject {
+  margin: 20px;
+  padding: 20px;
+  background-color: #404EB8;
+  color: white;
+}
+#project-row {
+  margin: 30px;
+}

@@ -1,0 +1,53 @@
+/*---------------------------------------------------------*/
+.pc {
+  padding: 15px;
+  text-align: center;
+}
+.tpc {
+  padding: 5px;
+  text-align: left;
+}
+.pad-left {
+  padding-left: 50px;
+}
+span {
+  padding: 18px;
+}
+span:hover {
+  cursor: pointer;
+  color: #a6aeec;
+}
+.right-line {
+  border-right: 2px solid #8892DD;
+}
+.budget-left-price {
+  background-color: #448aff;
+}
+.budget-values {
+  background-color: white;
+  margin: 50px;
+}
+.budget-values .bv-odd {
+  background-color: #b388ff;
+}
+.budget-values .bv-even {
+  background-color: #b39ddb;
+}
+.group-overview .main-view {
+  margin: 0px 50px 0px 50px;
+  background-color: #404EB8;
+  color: white;
+}
+.group-overview .table-view {
+  margin: 0px 50px 0px 50px;
+  background-color: white;
+}
+.budget-left {
+  background-color: #2962ff;
+  color: white;
+  margin: 50px;
+}
+#group-button {
+  margin-right: 50px;
+  float: right;
+}

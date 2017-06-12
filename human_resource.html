@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Projekt Asistent</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles/style.css"/>
+		<link rel="stylesheet" href="styles/human_resource.css"/>
+		
+		
+	</head>
+	<body>
+		<nav class="dashboard">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Ljudski resursi</a>
+				</div>
+				<div class="navbar-login">
+					<a class="glyphicon glyphicon-user"></a>
+				</div>
+				<div class="container-button">
+					<button type="button" class="btn btn-outline-secondary">Odustani</button>
+				</div>
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- Main title: Create receipt -->
+		<div id="hr-form" class="col-md-12">
+			<!-- Receipt form -->
+			<div class="row hr-form">
+				<form class="row">
+					<div class="row hr-class">
+						<label for="stavka" class="col-md-3">ANGAŽMAN</label>
+						<select class="form-control col-md-9 custom-input" id="stavka">
+							<option>Zaposlenici</option>
+							<option>Vanjski stručnjaci</option>
+						</select>
+					</div>
+
+					<div class="row hr-class">
+						<label class="col-md-3">IME I PREZIME</label>
+						<input type="text" class="form-control col-md-9 custom-input" id="enterReceiptNumber" placeholder="Upišite ime i prezime">
+					</div>
+					
+					<div class="row hr-class">
+						<label class="col-md-3">ADRESA</label>
+						<input type="text" class="form-control col-md-9 custom-input" id="enterReceiptNumber" placeholder="Upišite adresu">
+					</div>
+					
+					<div class="row hr-class">
+						<label class="col-md-3">OIB</label>
+						<input type="text" class="form-control col-md-9 custom-input" id="enterReceiptNumber" maxlength="11" placeholder="Upišite OIB">
+					</div>
+					
+					<div class="row hr-class">
+						<label class="col-md-3">IBAN</label>
+						<input type="text" class="form-control col-md-9 custom-input" id="enterReceiptNumber" maxlength="21" placeholder="Upišite IBAN">
+					</div>
+
+					<div class="row hr-class btn-create">
+						<button type="button" class="btn btn-primary">Kreiraj</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>

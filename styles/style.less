@@ -1,0 +1,72 @@
+@deep-purple: #673ab7;
+@blue: #31708f;
+@white: white;
+@hover: #d1c4e9;
+@main-background: #e0e0e0;
+@tittle-color: #404EB8;
+
+/*---------------------------------------------------------*/
+
+html, body {
+	padding: 0;
+	font-size: 16px;
+	background-color: @main-background;
+}
+
+.dashboard{
+	background-color: @deep-purple;
+	font-family: 'Fira Sans', sans-serif;
+	box-shadow: 1px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+	
+	.navbar-brand{
+		color: @white;
+		font-size: 25px;
+		padding-top: 20px;
+		a{
+			text-decoration: none;
+		}
+	}
+	
+	.container-button{
+		float: right;
+		margin: 15px;
+		
+		button{
+			background-color: @white;
+			color: @deep-purple;
+		}
+	}
+	.navbar-login{
+		a{
+			text-decoration: none;
+			color: white;
+			float: right;
+			margin: 20px;
+			
+			&:hover{ color: @hover; cursor: pointer; }
+		}
+	}
+}
+
+.project{
+	margin: 20px;
+	padding: 20px;
+	background-color: @white;
+	color: @blue;
+	p{
+		display: inline-block;
+	}
+	
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tittle-addproject{
+	margin: 20px;
+	padding: 20px;
+	background-color: @tittle-color;
+	color: @white;
+}
+
+#project-row{
+	margin: 30px;
+}
